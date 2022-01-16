@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+
+        Home page
+
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="container header__container">
+                <nav class="nav">
+                    <a class="nav__link nav__link-active" href="/">
+                        Home
+                    </a>
+                    <a class="nav__link" href="/about">
+                        About
+                    </a>
+                    <a class="nav__link" href="/contact-us">
+                        Contact
+                    </a>
+                    <a class="nav__link" href="/products">
+                        Products
+                    </a>
+                </nav>
+
+                <div class="logo nav__logo">
+                    <img src="/images/Logo.png" alt="logo" class="logo-img">
+                </div>
+                <div class="header__search">
+                    <input type="text" class="field field__outlined header__search-field" placeholder="Search...">
+
+                    <button type="button" class="btn btn__filled header__buy-btn">
+                        BUY 99$
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="main__title">
+                <p class="main__title-heading">Some Product Site</p>
+            </div>
+
+            <section class="product">
+                <div class="product__image">
+                    <img src="/images/img1.jpg" alt="Calvin Klein Obsession" class="product__img">
+                </div>
+                <div class="product__content">
+                    <h4 class="product__title">
+                        Calvin Klein Obsession
+                    </h4>
+                    <p class="product__description">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking
+                        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of
+                        letters, as
+                        opposed to using 'Content here, content here', making it look like readable English
+                    </p>
+                    <div>
+                        <button type="button" class="btn btn-outlined ">
+                            Buy 25$
+                        </button>
+                        <a class="product__info" href="#">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product product-reversed">
+                <div class="product__image product__image-reversed">
+                    <img src="/images/img2.jpg" alt="Lorem Ipsum is simply dummy text" class="product__img">
+                </div>
+                <div class="product__content product__content-reversed">
+                    <h4 class="product__title">
+                        Lorem Ipsum is simply dummy text
+                    </h4>
+                    <p class="product__description">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking
+                        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of
+                        letters, as
+                        opposed to using 'Content here, content here', making it look like readable English
+                    </p>
+                    <div>
+                        <button type="button" class="btn btn-outlined ">
+                            Buy 32$
+                        </button>
+                        <a class="product__info" href="#">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product">
+                <div class="product__image">
+                    <img src="/images/img3.jpg" alt="It has survived not only five centuries" class="product__img">
+                </div>
+                <div class="product__content">
+                    <h4 class="product__title">
+                        It has survived not only five centuries
+                    </h4>
+                    <p class="product__description">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking
+                        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of
+                        letters, as
+                        opposed to using 'Content here, content here', making it look like readable English
+                    </p>
+                    <div><button type="button" class="btn btn-outlined">
+                            Buy 48$
+                        </button>
+                        <a class="product__info" href="#">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="btn-big btn__product">
+                <button type="button" class="btn btn-pink">
+                    View more products
+                </button>
+            </div>
+
+            <form action="" class="form">
+                <h4 class="product__title form__title">
+                    Contact us
+                </h4>
+                <label for="">
+                    <input type="text" placeholder="Name" class="form__item">
+                </label>
+                <label for="">
+                    <input type="text" placeholder="Surname" class="form__item">
+                </label>
+                <label for="">
+                    <input type="email" placeholder="Email" class="form__item">
+                </label>
+                <textarea name="" id="" cols="25" rows="5" placeholder="Message"
+                    class="form__item form-textarea"></textarea>
+                <div class="btn-big btn__form">
+                    <button type="button" class="btn btn-pink">
+                        Send message
+                    </button>
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__box">
+                    <address class="footer__address">@Copyright 2016-2021 Some Product Site</address>
+                    <div class="logo footer__logo">
+                        <img src="/images/Footer_Logo.png" alt="logo" class="logo-img">
+                    </div>
+                    <nav class="nav">
+                        <a class="nav__link nav__link-active footer__nav" href="/">
+                            Home
+                        </a>
+                        <a class="nav__link footer__nav" href="/about">
+                            About
+                        </a>
+                        <a class="nav__link footer__nav" href="/contact-us">
+                            Contact
+                        </a>
+                        <a class="nav__link footer__nav" href="/products">
+                            Products
+                        </a>
+                    </nav>
+                </div>
+                <button type="button" class="btn btn-outlined footer__btn">
+                    To cart
+                </button>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
